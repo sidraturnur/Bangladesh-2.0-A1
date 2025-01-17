@@ -4,6 +4,9 @@
     font-weight: 400;
     font-style: normal;
   }
+  main{
+    max-width: 1280px;
+  }
 .banner{
   display: flex;
   justify-content: space-between;
@@ -14,19 +17,19 @@
 
 }
 .banner-title{
- color: #0E0E0E;
- font-style: medium;
- font-size: 12px;
-font-weight: 400;
+ color: gray;
+ font-style: light;
+ font-size: 18px;
+font-weight: 600;
 margin-bottom: 0px;
 }
 .banner-bold{
   margin-top: 0%;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .banner-content{
-   font-size: 38px;
+   font-size: 34px;
    font-style: bold;
    padding: 0px;
    
@@ -39,3 +42,67 @@ margin-bottom: 0px;
     padding: 18px 35px ;
     border-radius: 8px;
   }
+  .vision{
+    margin: 32px;
+    padding: 32px;
+  }
+  .section-title{
+    font-size: 36px;
+  }
+  .vision-description{
+    color: gray;
+    
+  }
+  .vision-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 32px;
+
+  }
+  .visions-1{
+    width: 100%;
+    padding: 32px 32px;
+    border-radius: 16px;
+    background-color: #c1d1ee;
+    
+  }
+  .btn-1{
+    background-color: #5490F5;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 14px 30px ;
+    border-radius: 8px;
+  }
+  .visions-2{
+    width: 100%;
+    padding: 32px 32px;
+    border-radius: 16px;
+    background-color: #a4f0ca;
+   
+  }
+  .btn-2{
+    background-color: #09A15C;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 14px 30px ;
+    border-radius: 8px;
+  }
+  
+  .visions-3{
+    width: 100%;
+    padding: 32px 32px;
+    border-radius: 16px;
+    background-color: #f6ffc3;
+  }
+  .btn-3{
+    background-color: #FFC239;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 14px 30px ;
+    border-radius: 8px;
+  }
+  
