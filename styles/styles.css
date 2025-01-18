@@ -50,8 +50,8 @@ margin-bottom: 0px;
   .section-title{
     font-size: 36px;
   }
-  .vision-description{
-    color: gray;
+  .visions-description{
+    color: rgba(14, 14, 14, 0.7) ;
     
   }
   .vision-container{
