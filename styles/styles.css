@@ -118,6 +118,10 @@ margin-bottom: 0px;
     gap: 32px;
     margin: auto;
     padding: 20px;
+    box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 24px;
+    margin-bottom: 24px;
+   
   }
   .image-1{
     border-radius: 24px ;
@@ -132,6 +136,9 @@ margin-bottom: 0px;
     gap: 32px;
     margin: auto;
     padding: 20px;
+    box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 24px;
+    
   }
   .news-content{
     margin: 20px;
@@ -146,3 +153,98 @@ margin-bottom: 0px;
     color: gray;
     font-size: 14px;
   }
+  .calltoaction{
+    margin: auto;
+    padding: 32px;
+  }
+  .donate-title{
+    text-align: center;
+    font-size: 40px;
+  }
+  .donate-desc{
+    text-align: center;
+    color: gray;
+  }
+  .taka-container{
+    display: flex;
+    justify-items: center;
+    gap: 24px;
+    justify-content: center;
+  }
+  .taka-card1{
+    margin: 20px;
+    padding:  0px 40px 0px 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-color: gray;
+    box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 16px;
+  }
+  .taka-card2{
+    margin: 20px;
+    padding:  0px 40px 0px 40px;
+    background-color: rgba(198, 228, 214, 1);
+    color: rgba(14, 14, 14, 0.8);
+    border-color: gray;
+    box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 16px;
+
+  }
+  .taka-card3{
+    margin: 20px;
+    padding:  0px 40px 0px 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-color: gray;
+    box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 16px;
+  }
+  .taka-card4{
+    margin: 20px;
+    padding:  0px 40px 0px 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-color: gray;
+    box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 16px;
+  }
+  .taka-input{
+    margin: 20px;
+    padding-left: 20px;
+  }
+#tk-input{
+  font-size: 16px ;
+  color: rgba(14, 14, 14, 0.3);
+border: none;
+ padding: 20px 40px;
+ width: 90%;
+ text-align: center;
+ background-color: rgba(255, 255, 255, 1) ;
+ box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.20) ;
+ margin-bottom: 20px;
+}
+.btn-donate1{
+  text-align: center;
+  padding: 17px 34px;
+}
+
+.btn-donate{
+  background-color: #006A50;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 18px 35px ;
+    border-radius: 8px;
+}
+button:hover{
+  background-color: #e28e79;
+}
+.taka-card1:hover{
+  background-color: #21bb75;
+}
+.taka-card2:hover{
+  background-color: #21bb75 ;
+}
+.taka-card3:hover{
+  background-color: #21bb75 ;
+}
+.taka-card4:hover{
+  background-color: #21bb75 ;
+}
