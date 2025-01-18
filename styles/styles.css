@@ -248,3 +248,23 @@ button:hover{
 .taka-card4:hover{
   background-color: #21bb75 ;
 }
+.quotes{
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin: 40px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.20);
+  color: rgba(14, 14, 14, 0.8);
+}
+.main-quote{
+  margin-bottom: 0px;
+}
+.quote{
+  color: gray;
+}
+.designation{
+  color: gray;
+  margin-top: 0px;
+}
