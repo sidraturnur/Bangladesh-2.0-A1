@@ -6,6 +6,7 @@
   }
   main{
     max-width: 1280px;
+    margin: 0 auto;
   }
 .banner{
   display: flex;
@@ -154,7 +155,7 @@ margin-bottom: 0px;
     font-size: 14px;
   }
   .calltoaction{
-    margin: auto;
+    margin-left: 24px;
     padding: 32px;
   }
   .donate-title{
@@ -218,16 +219,18 @@ border: none;
  text-align: center;
  background-color: rgba(255, 255, 255, 1) ;
  box-shadow: 0px 6px 100px 0px rgba(14, 14, 14, 0.20) ;
- margin-bottom: 20px;
+ margin-bottom: 10px;
 }
 .btn-donate1{
   text-align: center;
-  padding: 17px 34px;
+  padding: 5px 34px;
+  margin-top: 5px;
 }
 
 .btn-donate{
   background-color: #006A50;
     font-weight: bold;
+    font-size: 18px ;
     color: white;
     border: none;
     padding: 18px 35px ;
@@ -267,4 +270,34 @@ button:hover{
 .designation{
   color: gray;
   margin-top: 0px;
+}
+.newsletter{
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+
+ margin-bottom: 32px;
+ margin-top: 32px;
+
+
+}
+.newsletter-content{
+  margin-left: 20px;
+  padding: 80px 60px;
+  text-align: center;
+ 
+
+}
+.newsletter-title{
+  font-size: 40px;
+  font-weight: bold;
+}
+.newsletter-desc{
+  color: gray;
+  font-size: 16px;
+}
+#email{
+  padding: 20px 40px ;
+  width: 50%;
+  border-radius: 6px;
+  border: none;
 }
